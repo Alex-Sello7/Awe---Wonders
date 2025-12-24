@@ -1,3 +1,5 @@
+[file name]: index.html
+[file content begin]
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,15 +39,21 @@
   <link rel="stylesheet" href="styles.css">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
-  <link rel="apple-touch-icon" href="imgs/apple-touch-icon.png">
-
+   <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+  <link rel="apple-touch-icon" href="imgs/favicon.png">
+  
 </head>
 <body>
   <!-- Navigation Bar -->
   <header class="navbar" id="navbar">
     <div class="container navbar-container">
-      <a href="javascript:void(0)" class="logo">The Awe & Wonders</a>
+      <a href="javascript:void(0)" class="logo">
+        <div class="logo-container">
+          <img src="imgs/favicon.png" alt="The Awe & Wonders Logo" class="logo-img">
+          <span class="logo-text">The Awe & Wonders</span>
+        </div>
+      </a>
       <div class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -86,7 +94,7 @@
       <h2 class="text-center">About The Awe & Wonders</h2>
       <div class="about-content">
         <div class="about-text" data-aos="fade-right">
-          <p>The Awe of God is a community of believers dedicated to deepening our understanding of scripture through thoughtful study and reverent reflection. Our journey is focused on developing spiritual maturity through God's word, building meaningful relationships, and applying biblical truths to our daily lives.</p>
+          <p>The Awe & Wonders is a community of believers dedicated to deepening our understanding of scripture through thoughtful study and reverent reflection. Our journey is focused on developing spiritual maturity through God's word, building meaningful relationships, and applying biblical truths to our daily lives.</p>
           <p>We believe that approaching scripture with reverence opens our hearts to God's wisdom, transforming our perspective and drawing us closer to His presence. Together, we create a supportive environment where questions are welcomed and faith is nurtured.</p>
         </div>
         <div class="quote-block" data-aos="fade-left">
@@ -189,13 +197,13 @@
         <div class="gathering-item">
           <i class="far fa-clock"></i>
           <div class="gathering-info">
-            <strong>Time:</strong> 18:00 - 19:30
+            <strong>Time:</strong> TO be confirmed 
           </div>
         </div>
         <div class="gathering-item">
           <i class="fas fa-map-marker-alt"></i>
           <div class="gathering-info">
-            <strong>Location:</strong> Church Hall / Online (Zoom)
+            <strong>Location:</strong> Online (Zoom)
           </div>
         </div>
       </div>
@@ -248,11 +256,17 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-logo">
-          <h3>The Awe & Wonders</h3>
-          <p class="footer-motto">Walking in wisdom, living in reverence.</p>
+          <div class="logo-container">
+            <img src="imgs/favicon.png" alt="The Awe & Wonders Logo" class="logo-img">
+            <div class="footer-logo-text">
+              <h3>The Awe & Wonders</h3>
+              <p class="footer-motto">Walking in wisdom, living in reverence.</p>
+            </div>
+          </div>
         </div>
         <div class="footer-links">
-          <ul class="footer-nav">
+          <!--
+                    <ul class="footer-nav">
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">What We Do</a></li>
@@ -262,10 +276,13 @@
             <li><a href="#testimonials">Reflections</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          
+          -->
+
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 The Awe & Wonders. All rights reserved. Designed By <a href="">Cascade Creations</a></p>
+        <p>&copy; 2025 The Awe of God. All rights reserved.</p>
       </div>
     </div>
   </footer>
