@@ -42,7 +42,7 @@ function createWhatsAppButton() {
   // Add click event to WhatsApp button
   whatsAppBtn.addEventListener('click', () => {
     // Replace with your actual WhatsApp group link
-    const whatsappLink = "https://wa.me/yourphonenumber?text=Hello!%20I'm%20interested%20in%20The%20Awe%20%26%20Wonders%20Bible%20Study";
+    const whatsappLink = "https://chat.whatsapp.com/GzBUWXC7hFKBsuh81Z2H5c";
     window.open(whatsappLink, '_blank');
   });
   
